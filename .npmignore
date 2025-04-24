@@ -1,0 +1,40 @@
+# Archivos de desarrollo
+lib/
+src/
+.github/
+.vscode/
+.idea/
+
+# Archivos de configuración
+.swcrc
+tsconfig.json
+.eslintrc
+.prettierrc
+.editorconfig
+
+# Archivos de desarrollo
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+__tests__/
+coverage/
+
+# Archivos de documentación y desarrollo
+docs/
+examples/
+*.md
+!README.md
+
+# Archivos de desarrollo y dependencias
+node_modules/
+.git/
+.gitignore
+.npmignore
+.env
+.env.*
+
+# Archivos de build y cache
+.cache/
+.temp/
+*.log 
