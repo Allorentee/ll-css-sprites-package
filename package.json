@@ -1,0 +1,38 @@
+{
+  "name": "ll-css-sprites",
+  "version": "1.0.0",
+  "description": "A Css Sprite component",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "swc ./lib -d dist",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "css",
+    "sprites",
+    "typescript"
+  ],
+  "author": "Alvaro Llorente",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.5",
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0"
+  },
+  "dependencies": {
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.7.3",
+    "@swc/core": "^1.11.22",
+    "@types/react": "^18.0.0",
+    "react": "^19.1.0"
+  }
+}
