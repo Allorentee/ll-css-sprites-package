@@ -1,0 +1,1 @@
+import{jsx as _jsx}from"react/jsx-runtime";import React from"react";export function CssSprites({position,image}){return _jsx("div",{style:{display:"inline-block",backgroundImage:`url(${image})`,backgroundSize:"cover",backgroundRepeat:"no-repeat",backgroundPosition:position,width:"26px",height:"26px"}})}
